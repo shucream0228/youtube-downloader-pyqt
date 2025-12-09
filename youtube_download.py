@@ -229,7 +229,7 @@ class YoutubeDownloaderApp(QMainWindow):
         else:
             QMessageBox.critical(self, "다운로드 실패", f"오류 내용:\n{err_msg}")
         
-        self.status_label.setText("다운로드 실패")
+        self.status_label.setText("다운로드를 실패")
         self.reset_ui_state()
 
     def reset_ui_state(self):
